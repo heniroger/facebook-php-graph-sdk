@@ -107,4 +107,26 @@ class Application implements \Serializable
 
         $this->__construct($id, $secret);
     }
+
+      /**
+     * Serializes the Application entity as a string.
+     *
+     * @return string
+     */
+    public function __serialize()
+    {
+        return implode('|', [$this->id, $this->secret]);
+    }
+
+    /**
+     * Unserializes a string as an Application entity.
+     *
+     * @param string $serialized
+     */
+    public function __unserialize($serialized)
+    {
+        list($id, $secret) = explode('|', $serialized);
+
+        $this->__construct($id, $secret);
+    }
 }
