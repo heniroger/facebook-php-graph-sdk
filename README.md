@@ -3,17 +3,17 @@
 This repository contains the open source PHP SDK that allows you to access the Facebook Platform from your PHP app. It is modified to allow compatibility, view the previous SDK version [here](https://github.com/facebookarchive/php-graph-sdk)
 
 <p align="center">
-    <a href="https://github.com/joelbutcher/facebook-php-graph-sdk/actions">
-        <img src="https://github.com/joelbutcher/facebook-php-graph-sdk/workflows/tests/badge.svg" alt="Build Status">
+    <a href="https://github.com/heniroger/facebook-php-graph-sdk/actions">
+        <img src="https://github.com/heniroger/facebook-php-graph-sdk/workflows/tests/badge.svg" alt="Build Status">
     </a>
-    <a href="https://packagist.org/packages/joelbutcher/facebook-graph-sdk">
-        <img src="https://img.shields.io/packagist/dt/joelbutcher/facebook-graph-sdk" alt="Total Downloads">
+    <a href="https://packagist.org/packages/heniroger/facebook-graph-sdk">
+        <img src="https://img.shields.io/packagist/dt/heniroger/facebook-graph-sdk" alt="Total Downloads">
     </a>
-    <a href="https://packagist.org/packages/joelbutcher/facebook-graph-sdk">
-        <img src="https://img.shields.io/packagist/v/joelbutcher/facebook-graph-sdk" alt="Latest Stable Version">
+    <a href="https://packagist.org/packages/heniroger/facebook-graph-sdk">
+        <img src="https://img.shields.io/packagist/v/heniroger/facebook-graph-sdk" alt="Latest Stable Version">
     </a>
-    <a href="https://packagist.org/packages/joelbutcher/facebook-graph-sdk">
-        <img src="https://img.shields.io/packagist/l/joelbutcher/facebook-graph-sdk" alt="License">
+    <a href="https://packagist.org/packages/heniroger/facebook-graph-sdk">
+        <img src="https://img.shields.io/packagist/l/heniroger/facebook-graph-sdk" alt="License">
     </a>
 </p>
 
@@ -23,7 +23,7 @@ This repository contains the open source PHP SDK that allows you to access the F
 The Facebook PHP SDK can be installed with [Composer](https://getcomposer.org/). Run this command:
 
 ```sh
-composer require joelbutcher/facebook-graph-sdk
+composer require heniroger/facebook-graph-sdk
 ```
 
 ## Usage
@@ -86,12 +86,12 @@ $ ./vendor/bin/phpunit --exclude-group integration
 
 ## Contributing
 
-For us to accept contributions you will have to first have signed the [Contributor License Agreement](https://developers.facebook.com/opensource/cla). Please see [CONTRIBUTING](https://github.com/joelbutcher/facebook-graph-sdk-php-8/blob/master/CONTRIBUTING.md) for details.
+For us to accept contributions you will have to first have signed the [Contributor License Agreement](https://developers.facebook.com/opensource/cla). Please see [CONTRIBUTING](https://github.com/heniroger/facebook-graph-sdk-php-8/blob/master/CONTRIBUTING.md) for details.
 
 ## License
 
-Please see the [license file](https://github.com/joelbutcher/facebook-graph-sdk-php-8/blob/master/LICENSE) for more information.
+Please see the [license file](https://github.com/heniroger/facebook-graph-sdk-php-8/blob/master/LICENSE) for more information.
 
 ## Security Vulnerabilities
 
-If you have found a security issue, please contact the maintainers directly at [joel@joelbutcher.co.uk](mailto:joel@joelbutcher.co.uk).
+If you have found a security issue, please contact the maintainers directly at [heniroger@yahoo.fr](mailto:heniroger@yahoo.fr).
